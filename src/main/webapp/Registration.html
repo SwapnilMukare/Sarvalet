@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+</head>
+<body>
+<a href="ShowDetails">View Employee</a>
+<form action="SaveDetails" method="post">
+<div class="div1">
+<div class="div2"><b>Registration Form</b></div>
+<h5>Please Fill This To Create An Account</h5>
+Full Name<br>
+<input type="text" name="name" required placeholder="Enter Your Name"><br><br>
+Email<br>
+<input type="email" name="email" required placeholder="Enter Your Email"><br><br>
+Password<br>
+<input type="password" name="password" required placeholder="Enter Your Password"><br><br>
+Address<br>
+<input type="text" name="address" required placeholder="Enter Your Address"><br><br>
+City :
+<select name="city">
+<option>Pune</option>
+<option>Mumbai</option>
+<option>Solapur</option>
+<option>Nagpur</option>
+</select><br><br>
+
+Country :
+<select name="country">
+<option>India</option>
+<option>Shri Lanka</option>
+<option>Sounth Africa</option>
+<option>England</option>
+</select><br><br>
+
+<input type="submit" value="Register" class="in">
+</div>
+</form>
+</body>
+
+<style>
+input{
+	height:25px;
+	width:100%;
+	
+}
+
+.div2{
+	color:white;
+	background-color:black;
+	width:100%;
+	height:25px;
+	text-align:center;
+}
+
+.in{
+font-weight:bold ;
+background-color:black;
+color:white;
+}
+</style>
+</html>
